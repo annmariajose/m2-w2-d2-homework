@@ -6,7 +6,7 @@
 
   <!-- Meta Tags -->
   <meta charset="UTF-8" />
-  <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+  <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -25,13 +25,21 @@
         <div class="logo">
           <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
         </div>
-        <nav class="main-menu">
-          <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="cliffs.html">Cliffs</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+        <nav class="main-menu navbar navbar-expand-lg navbar-light bg-transparent">
+          <!-- Hamburger Menu -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse hamburgerMenu" id="navbarContent">
+            <ul class="navbar-nav">
+              <li class="active nav-item"><a href="index.html">Home</a></li>
+              <li class="nav-item"><a href="cliffs.html">Cliffs</a></li>
+              <li class="nav-item"><a href="activities.html">Activities</a></li>
+              <li class="nav-item"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
