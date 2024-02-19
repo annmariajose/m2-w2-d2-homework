@@ -12,7 +12,8 @@ header {
 
 .main-header {
     background-color: rgb(255, 255, 255, 0.8);
-    width: 700px;
+    max-width: 700px;
+    width: 80%;
     margin: 2em auto 0 auto;
     min-height: 100px;
     height: 100px;
@@ -186,6 +187,9 @@ footer #nondisclaimer .social .fa-instagram {
 }
 
 @media (max-width: 991px) {
+    .main-header {
+        position: relative;
+    }
     .logo img {
         position: relative;
     }
@@ -193,7 +197,14 @@ footer #nondisclaimer .social .fa-instagram {
         width: 200px;
         background-color:rgb(255, 255, 255);
         position: absolute;
-        right: 1.7em;
+        right: -6em;
+        top: 2em;
+      }
+      .main-menu ul {
+        margin-top: 2.5em;
+        margin-left: -7em;
+        margin-right: 7em;
+        background-color: rgb(255, 255, 255);;
       }
       .main-menu ul li {
         border-bottom: 1px solid rgba(202, 204, 202, 0.6);
